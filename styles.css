@@ -7,6 +7,7 @@
 
 :root {
     --primary-color: #2c7a3f;
+    --primary-color-dark: #1e5a2e;
     --secondary-color: #f4a460;
     --text-color: #333;
     --bg-color: #f9f9f9;
@@ -54,7 +55,7 @@ section {
 .hero {
     text-align: center;
     padding: 3rem 0;
-    background: linear-gradient(135deg, var(--primary-color) 0%, #1e5a2e 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-color-dark) 100%);
     color: white;
     border-radius: 8px;
     margin-bottom: 3rem;
@@ -155,7 +156,7 @@ section {
 }
 
 .button:hover {
-    background-color: #1e5a2e;
+    background-color: var(--primary-color-dark);
 }
 
 /* Footer */
